@@ -8,6 +8,10 @@
     background-color: #2C3E50;
 }
 
+.as-bg-startbootstrap {
+    background-color: #1ABC9C;
+}
+
 a {
     color:white;
     text-decoration:none;
@@ -24,5 +28,24 @@ ul > li {
     margin:0;
 }
 
+/* AS */
+
+.as-img-width {
+    width:60%;
+}
+
+.as-big-text {
+    font-size:6rem;
+}
+
+.as-big-icon {
+    font-size:4rem;
+}
+
+.as-bar {
+    width:220px;
+    height:11px;
+    background-color:white;
+}
 /* Responsive */
 
