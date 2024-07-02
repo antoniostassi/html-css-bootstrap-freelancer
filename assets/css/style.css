@@ -31,21 +31,20 @@ ul > li {
 /* AS */
 
 .as-img-width {
-    width:60%;
+    width:40%;
 }
 
 .as-big-text {
-    font-size:6rem;
+    font-size:4.5rem;
 }
 
 .as-big-icon {
-    font-size:4rem;
+    font-size:3rem;
 }
 
 .as-bar {
-    width:220px;
-    height:11px;
-    background-color:white;
+    width:200px;
+    height:10px;
 }
 /* Responsive */
 
