@@ -119,24 +119,26 @@
                     </div>
                 
                     <div class="as-cont px-5">
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput2" class="form-label">Email Address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput3" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="+39">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput2" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput3" class="form-label">Phone Number</label>
+                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+39" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                            </div>
 
-                        <input class="btn btn-outline-dark border-0 text-white as-bg-startbootstrap" type="submit" value="Send">
+                            <input class="btn btn-outline-dark border-0 text-white as-bg-startbootstrap" type="submit" value="Send">
+                        </form>
                     </div>
                 </div>
             </section>
